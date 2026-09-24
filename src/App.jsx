@@ -6,6 +6,24 @@ import Experience from './components/Experience.jsx'
 import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
 
+import '@fontsource/bricolage-grotesque/200.css';
+import '@fontsource/bricolage-grotesque/300.css';
+import '@fontsource/bricolage-grotesque/400.css';
+import '@fontsource/bricolage-grotesque/500.css';
+import '@fontsource/bricolage-grotesque/600.css';
+import '@fontsource/bricolage-grotesque/700.css';
+import '@fontsource/bricolage-grotesque/800.css';
+
+import '@fontsource/fraunces/100.css';
+import '@fontsource/fraunces/200.css';
+import '@fontsource/fraunces/300.css';
+import '@fontsource/fraunces/400.css';
+import '@fontsource/fraunces/500.css';
+import '@fontsource/fraunces/600.css';
+import '@fontsource/fraunces/700.css';
+import '@fontsource/fraunces/800.css';
+import '@fontsource/fraunces/900.css';
+
 export default function App() {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {

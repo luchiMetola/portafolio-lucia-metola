@@ -1,3 +1,12 @@
+@layer base {
+  :root {
+  /* textos */
+  --font-sans: 'Bricolage Grotesque', sans-serif;
+  
+  /* títulos */
+  --font-serif: 'Fraunces', serif;
+}
+}
 :root {
   --ink: #101c3a;
   --ink-soft: #3c4863;
