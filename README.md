@@ -1,44 +1,61 @@
-# Portafolio de Lucía Mestre Metola — React + Vite
+# Portafolio de Lucía Mestre Metola
 
-Portafolio profesional desarrollado con React y Vite. El contenido está organizado en componentes reutilizables y archivos de datos para que sea sencillo de editar.
+Portafolio profesional orientado a desarrollo frontend y diseño UX/UI. Presenta proyectos, experiencia, formación y competencias técnicas mediante una interfaz responsive y accesible.
 
-## Ejecutar el proyecto
+## Tecnologías
 
-Abrí una terminal dentro de la carpeta y ejecutá:
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- Fuentes locales con Fontsource y `@font-face`
+
+## Ejecutar localmente
+
+Requisitos: Node.js y npm.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Vite mostrará una dirección local, normalmente `http://localhost:5173`.
+Vite mostrará la dirección de desarrollo local, normalmente `http://localhost:5173`.
 
-## Crear la versión de producción
+## Comandos disponibles
+
+```bash
+npm run dev      # Inicia el servidor de desarrollo
+npm run build    # Genera la versión de producción
+npm run preview  # Previsualiza la compilación de producción
+```
+
+## Estructura principal
+
+```text
+src/
+├── components/       Componentes de cada sección del portafolio
+├── data/projects.js  Proyectos, experiencia y competencias
+├── App.jsx           Composición principal y animaciones de entrada
+├── index.css         Importación de Tailwind y fuente local
+└── main.jsx          Punto de entrada de React
+
+public/
+├── assets/           Imágenes, favicon y fuentes
+└── Lucia-Mestre-Metola-CV.pdf
+```
+
+El contenido profesional se actualiza principalmente desde `src/data/projects.js`. La presentación visual se define mediante clases de Tailwind en cada componente.
+
+## Producción
 
 ```bash
 npm run build
 ```
 
-El resultado se genera dentro de `dist/`.
+La compilación se genera en `dist/`. El proyecto está preparado para desplegarse en Vercel, que publica automáticamente cada actualización enviada a la rama principal de GitHub.
 
-## Dónde editar cada parte
+## Autora
 
-- `src/data/projects.js`: proyectos, experiencia y tecnologías.
-- `src/components/Hero.jsx`: presentación principal.
-- `src/components/Header.jsx`: navegación.
-- `src/components/About.jsx`: perfil profesional.
-- `src/components/Contact.jsx`: correo, LinkedIn y GitHub.
-- `src/index.css`: colores, tipografías, tamaños y adaptación responsive.
-- `public/assets/`: imágenes de los proyectos.
-- `public/Lucia-Mestre-Metola-CV.pdf`: CV descargable.
-
-## Publicar en Vercel
-
-1. Creá un repositorio en GitHub y subí esta carpeta.
-2. Iniciá sesión en Vercel y elegí **Add New > Project**.
-3. Importá el repositorio.
-4. Vercel detectará Vite automáticamente.
-5. Verificá que el comando sea `npm run build` y la carpeta de salida sea `dist`.
-6. Seleccioná **Deploy**.
-
-Cada nuevo cambio que subas a la rama principal de GitHub generará una nueva publicación.
+**Lucía Mestre Metola**  
+Frontend y UX/UI  
+[GitHub](https://github.com/luchiMetola) · [LinkedIn](https://www.linkedin.com/in/lucia-metola-b0aa50273)
