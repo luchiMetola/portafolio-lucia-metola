@@ -10,12 +10,12 @@ export default function Contact() {
           <div className="mt-9.5 flex flex-wrap justify-center gap-3">
             <a className="rounded-full border border-[#3d676f] px-4 py-2.25 font-bold no-underline hover:bg-[#3d676f] hover:text-white" href="https://www.linkedin.com/in/lucia-metola-b0aa50273" target="_blank" rel="noreferrer">LinkedIn</a>
             <a className="rounded-full border border-[#3d676f] px-4 py-2.25 font-bold no-underline hover:bg-[#3d676f] hover:text-white" href="https://github.com/luchiMetola" target="_blank" rel="noreferrer">GitHub</a>
-            <a className="rounded-full border border-[#3d676f] px-4 py-2.25 font-bold no-underline hover:bg-[#3d676f] hover:text-white" href="/Lucia-Mestre-Metola-CV.pdf" download>Descargar CV</a>
+            <a className="rounded-full border border-[#3d676f] px-4 py-2.25 font-bold no-underline hover:bg-[#3d676f] hover:text-white" href="/Lucia-Metola-CV.pdf" download>Descargar CV</a>
           </div>
         </div>
       </section>
       <footer className="bg-[#3d676f] text-white">
-        <div className="mx-auto flex min-h-20.5 w-[min(1180px,calc(100%-30px))] flex-col items-start justify-between gap-5 py-6 min-[681px]:w-[min(1180px,calc(100%-48px))] min-[681px]:flex-row min-[681px]:items-center min-[681px]:py-0"><p className="m-0">Lucía Mestre Metola · 2026</p><a className="font-bold text-[#d8fcad] underline-offset-[5px]" href="#inicio">Volver arriba ↑</a></div>
+        <div className="mx-auto flex min-h-20.5 w-[min(1180px,calc(100%-30px))] flex-col items-start justify-between gap-5 py-6 min-[681px]:w-[min(1180px,calc(100%-48px))] min-[681px]:flex-row min-[681px]:items-center min-[681px]:py-0"><p className="m-0">Lucía Metola · 2026</p><a className="font-bold text-[#d8fcad] underline-offset-[5px]" href="#inicio">Volver arriba ↑</a></div>
       </footer>
     </>
   )
